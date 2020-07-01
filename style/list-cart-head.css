@@ -1,0 +1,29 @@
+.head-page{
+	width: 500px;
+	height: 50px;
+	margin:100px auto;
+}
+.head-page ul{
+	list-style-type: none;
+	width: 420px;
+	height: 45px;
+	margin:auto;
+}
+.head-page ul li{
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin-left: 10px;
+}
+.head-page ul li a{
+	background: #141C1C;
+	color: white;
+	display: block;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+}
+.head-page ul li a:hover{
+	background: #A79999;
+	color: red;
+}

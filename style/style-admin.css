@@ -1,0 +1,318 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/*ADMIN*/
+.container{
+	margin: auto;
+	width: 1320px;
+	height: 900px;
+}
+.fixed-header{
+	height: 50px;
+	position: fixed;
+	width: 1300px;
+}
+.header{
+	height: 50px;
+	background: #999999;
+	box-sizing: border-box;
+	width: 1300px;
+}
+.header .icon-user{
+	float: right;
+	margin-right: 10px;
+	width: 120px;
+	height: 50px;
+}
+.header .icon-user a {
+	color: white;
+	text-decoration: none;
+	margin-right: 15px;
+}
+.header .icon-user #img-avatar{
+	float: left;
+	margin-top: 5px;
+}
+.header .icon-user #img-avatar img{
+	border-radius: 15px;
+}
+.header .icon-user #img-logout{
+	float: left;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+ul{
+	list-style-type: none;
+}
+.nav{
+	background: #4E4E4E;
+	height: 600px;
+	width: 300px; 
+	float: left;
+	position: fixed;
+	top: 50px;
+}
+.fixed-nav{
+	width: 300px;
+	height: 750px;
+	float: left;
+}
+.nav #nav-user,#nav-product{
+	width: 280px;
+	height: 220px;
+	float: left;
+	margin-top: 30px;
+	box-sizing: border-box;
+}
+.nav h1{
+	font-size: 25px;
+	height: 35px;
+	background-image: linear-gradient(to right,#5939FC,#4E4E4E);
+	padding-left: 20px;
+	box-sizing: border-box;
+	line-height: 35px;
+}
+.nav ul{
+	margin-top:30px; 
+	margin-left: 60px;
+}
+.nav ul li{
+	margin-top: 10px;
+	font-size: 18px;
+}
+.nav ul li a{
+	color: #6A5FFF;
+}
+.nav ul li a:hover{
+	color: #FFFFFF;
+}
+.content{
+	width: 1000px;
+	height: 850px;
+	float: left;
+	margin-left: 20px;
+	padding-top: 50px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	margin-top: 50px;
+	
+}
+/*ONE-PAGE*/
+
+
+
+
+.body-content{
+	box-sizing: border-box;
+	width: 950px;
+	height: 780px;
+	border: 1px solid #DDDDDD;
+	border-radius: 5px;
+}
+.content h2{
+	box-sizing: border-box;
+	width: 100%;
+	height: 40px;
+	background: #DBDBDB;
+	font-size: 20px;
+	line-height: 40px;
+	padding-left: 30px;
+}
+.list{
+	height: 550px;
+	margin: 30px;
+	width: 900px;
+	padding: 20px;
+	box-sizing: border-box;
+	float: left;
+}
+.list .text{
+	float: left;
+	text-align: center;
+	border: 1px solid #C5C5C5;
+	box-sizing: border-box;
+	height: 30px;
+	line-height: 30px;
+	font-size: 18px;
+}
+
+.one-record{
+	clear: left;
+}
+.list #title .text{
+	background: #E9E9E9;
+	height: 40px;
+	line-height: 40px;
+}
+
+.list #title #stt{
+	border-top: 1px solid #C5C5C5;
+}
+.list #title #id{
+	border-top: 1px solid #C5C5C5;
+}
+.list #title #user{
+	border-top: 1px solid #C5C5C5;
+}
+.list #title #pass{
+	border-top: 1px solid #C5C5C5;
+}
+.list #title #phone{
+	border-top: 1px solid #C5C5C5;
+}
+.list #title #gt{
+	border-top: 1px solid #C5C5C5;
+}
+.list #title #ad{
+	border-top: 1px solid #C5C5C5;
+}
+.list #title #edit{
+	border: 1px solid #C5C5C5;
+	border-left:none;
+	border-top: none;
+	display: none;
+}
+.list #title #delete{
+	border: 1px solid #C5C5C5;
+	border-left:none;
+	border-top: none;
+	display: none;
+}
+.list #stt{
+	width: 60px;
+	border-top: none;
+}
+.list #id{
+	width: 70px;
+	border-top: none;
+	border-left:none;
+}
+.list #user{
+	width: 120px;
+	border-left:none;
+	border-top: none;
+}
+.list #pass{
+	width: 120px;
+	border-left:none;
+	border-top: none;
+}
+.list #phone{
+	width: 150px;
+	border-left:none;
+	border-top: none;
+}
+.list #gt{
+	width: 100px;
+	border-left:none;
+	border-top: none;
+}
+.list #ad{
+	width: 140px;
+	border-left:none;
+	border-top: none;
+}
+.list #edit{
+	border: none;
+	width: 90px;
+}
+.list #delete{
+	border: none;
+	width: 90px;
+}
+.one-record button{
+	border: none;
+	font-size: 18px;
+	border-radius: 5px;
+}
+
+.one-record #delete button{
+	background: red;
+	width: 50px;
+	height: 25px;
+}
+/*ADD_USER*/
+#add-user input{
+	width: 100px;
+	border: none;
+	font-size: 18px;
+}
+#add-user #user{
+	border-left: 1px solid #C5C5C5;
+}
+/*ADD ADDRESS*/
+#add-address input{
+	border: none;
+	font-size: 18px;
+	width: 120px;
+}
+#add-address #ad{
+	border-left: 1px solid #C5C5C5;
+}
+/*ADD PRODUCT*/
+#add-product .list{
+	border: 1px solid #E3E3E3;
+	border-radius: 10px;
+	width: 500px;
+	background: #D9D9D9;
+	margin-left: 100px;
+	box-sizing: border-box;
+}
+#add-product .text-input{
+	margin-top: 20px;
+	margin-left: 50px;
+	width: 350px;
+	height: 50px;
+	border: 1px solid white;
+	box-sizing: border-box;
+	line-height: 50px;
+	background: white;
+	border-radius: 5px;
+}
+#add-product .text-input .text-description{
+	padding-top: 15px;
+}
+#add-product .text-input input{
+	font-size: 24px;
+	width: 100%;
+	border: none;
+	height: 100%;
+	padding-left: 30px;
+	box-sizing: border-box;
+}
+#add-product #select-product{
+	background: #D9D9D9;
+	border: none;
+}
+#add-product #textarea{
+	height: 70px;
+	border: none;
+	background: #D9D9D9;
+}
+#add-product #textarea textarea{
+	border: none;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+#add-product #upload-image{
+	background: #D9D9D9;
+	border: none;
+}
+#add-product #upload-image input{
+	font-size: 15px;
+}
+#add-product #button{
+	border: none;
+	text-align: center;
+	background: #D9D9D9;
+}
+#add-product #button button{
+	background: #23FD42;
+	border:5px solid #23FD42;
+	color: #323232;
+	font-size: 23px;
+}
+
+
+

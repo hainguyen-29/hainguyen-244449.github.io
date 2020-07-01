@@ -1,0 +1,89 @@
+.text .hlink{
+	width: 60px;
+	height: 25px;
+	margin-left: 20px;
+	margin-top: 2px;
+	line-height: 25px;
+	border-radius: 5px;
+}
+#title .text{
+	font-weight: 450;
+	font-size: 19px;
+}
+.table .text{
+	font-size: 15px;
+}
+.text .edit{
+	background: #1B35D0
+}
+.text .dele{
+	background: red;
+}
+.text a{
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+#list-cart .list{
+	height: 680px;
+}
+.list-record .text{
+	height: 80px;
+	font-size: 15px;
+}
+.list-record .txt{
+	line-height: 80px;
+}
+.one-record .right{
+	border-right: none;
+}
+.list-record .top{
+	border-top: none; 
+}
+.stt{
+	width: 60px;
+}
+.user{
+	width: 100px;
+}
+.name{
+	width: 150px;
+}
+.img{
+	width: 100px;
+}
+.img img{
+	margin-top: 10px;
+}
+.amount{
+	width: 90px;
+}
+.money{
+	width: 120px;
+}
+.confirm{
+	width:120px;
+}
+.cancel{
+	width: 120px;
+}
+.alink{
+	background: red;
+	width: 90px;
+	height: 40px;
+	margin-top: 20px;
+	margin-left: 15px;
+	padding-top: 5px;
+	box-sizing: border-box;
+	border-radius: 16px;
+}
+.ok{
+	background: #12AAF9
+}
+.no{
+	background:  #697076
+}
+.alinnk a{
+	line-height: 30px;
+}
+
