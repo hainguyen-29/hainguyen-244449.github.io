@@ -21,14 +21,14 @@
 				$run 		= mysqli_query($connection,$query);
 				if($run){
 					echo "<script>alert('Xóa thành công!');
-												location.replace('../admin/admin.php');
+												location.replace('../admin/index.php');
 								</script>";
 				} else echo "<script>
 				alert('Người này đã đặt hàng không thể xóa!')
-				location.replace('../admin/admin.php');</script>";
+				location.replace('../admin/index.php');</script>";
 				
 			}else echo "<script>alert('Không thể xóa admin!');
-												location.replace('../admin/admin.php');
+												location.replace('../admin/index.php');
 								</script>";
 		
 	}
