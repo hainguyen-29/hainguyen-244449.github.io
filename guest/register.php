@@ -30,7 +30,7 @@
 			</div>
 			<div class="line-text">
 				Năm sinh:
-						<select name="year" class="year">
+						<select name="year" class="year" required>
 							<option selected>Chọn</option>
 							<?php 
 								for ($i=1910; $i<=2020; $i++) { 
